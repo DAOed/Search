@@ -147,16 +147,17 @@ export default {
       }
       // console.log(data)
 
-      let newData = (this.anyQuality && !this.qualityChecks.length)
-        ? data : (!this.anyQuality && this.qualityChecks.length)
-          ? filter(data, "quality", this.qualityChecks) : data
+      const domainData = (this.anyDomain && !this.filteredDomains.length)
+        ? data : (!this.anyDomain && this.filteredDomains.length)
+          ? filter(data, "domain", this.filteredDomains) : data
 
-      // console.log(newData)
+      const qualityData = (this.anyQuality && !this.qualityChecks.length)
+        ? domainData : (!this.anyQuality && this.qualityChecks.length)
+          ? filter(domainData, "quality", this.qualityChecks) : domainData
 
-      newData = build(newData)
-      // console.log(newData)
+      const readyData = build(qualityData)
 
-      this.items = newData
+      this.items = readyData
       this.loading = false
 
       // to do update vue router query params

@@ -10,10 +10,7 @@
             <div class="filter-title">
               Domain
             </div>
-            <zi-checkbox
-              v-model="anyDomain"
-              disabled
-            >
+            <zi-checkbox v-model="anyDomain">
               All domains
             </zi-checkbox>
           </div>
@@ -23,7 +20,7 @@
           >
             <zi-input
               v-model="filteredDomains"
-              placeholder="Enter domains separated by spaces, ie .id .onename"
+              placeholder="Enter domains separated by space or comma, ie id onename"
               size="mini"
               :clearable="true"
               class="filter-domains-input"

@@ -13,7 +13,7 @@ export const filter = (data, type, config) => {
     // checks are : name, bio, avatar, connected account
     let checks = config.map((check) => check.toLowerCase())
 
-    let newData = data.map((d) => {
+    let qualityData = data.map((d) => {
       let profile = d.profile
 
       if ((checks.indexOf("name") > -1) && !profile.name) return null
@@ -24,7 +24,21 @@ export const filter = (data, type, config) => {
       return d
     })
 
-    return newData.filter(Boolean)
+    return qualityData.filter(Boolean)
+  } else if (type === "domain") {
+    // potentials are : .id/id .id.blockstack/id.blockstack .id.onename
+    let domains =
+      config.replace(/\s+/g, " ").trim().toLowerCase().split(/[ ,]+/).map((domain) => domain.indexOf(".") === 0 ? domain : "." + domain)
+
+    let domainData = data.map((d) => {
+      let username = d.fullyQualifiedName
+      let domain = username.substr(username.indexOf("."))
+
+      if (domains.indexOf(domain) === -1) return null
+      return d
+    })
+
+    return domainData.filter(Boolean)
   }
 }
 

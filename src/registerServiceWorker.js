@@ -21,6 +21,11 @@ if (process.env.NODE_ENV === "production") {
     },
     updated () {
       console.log("New content is available; please refresh.")
+
+      let confirmReload = confirm(
+        "New content found! Do you want to reload the app?"
+      )
+      if (confirmReload) window.location.reload()
     },
     offline () {
       console.log("No internet connection found. App is running in offline mode.")

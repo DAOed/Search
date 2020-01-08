@@ -1,6 +1,6 @@
 ![DAOed Search](https://daoed.com/img/daoed-search-wordmark.png)
 
-# DAOed Search [![Netlify Status](https://api.netlify.com/api/v1/badges/904c08e9-9cba-4a72-98de-e67e2d5296cf/deploy-status)](https://app.netlify.com/sites/daoed/deploys)
+# DAOed Search [![Netlify Status](https://api.netlify.com/api/v1/badges/3332b102-0a41-47c6-94e8-3e3931e18c0a/deploy-status)](https://app.netlify.com/sites/daoed-search/deploys)
 
 Search the decentralized Internet with DAOed Search. Discover and connect(coming soon!) with people in a more secure and private way that puts you in control of your data.
 

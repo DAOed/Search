@@ -28,6 +28,7 @@
             About
           </router-link>
           <a
+            target="_blank"
             href="https://github.com/DAOed/Search/issues"
             class="foot-item"
           >

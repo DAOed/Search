@@ -30,7 +30,7 @@ DAOed Search is built as a secure, private and user-friendly BlockStack account 
 Kindly note that we cannot guarantee that all PRs will be merged, thank you for understanding.
 
 ## Support/Community
-We invite you to join our community. Visit our [community portal](https://about.daoed.com/community) to see how the various channels you can join.
+We invite you to join our community. Visit our [community portal](https://about.daoed.com/community) to see the various channels by hich you can connect with us.
 
 ## License
 
@@ -38,4 +38,4 @@ GNU General Public License v3.0.
 
 ---
 
-See more **D**ecentralized, **A**utonomous and **O**pen-Source products at [DAOed](https://about.daoed.com).
+See more **D**ecentralized, **A**utonomous and **O**pen-Sourced products at [DAOed](https://about.daoed.com).

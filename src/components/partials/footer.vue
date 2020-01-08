@@ -28,6 +28,12 @@
             About
           </router-link>
           <a
+            href="https://github.com/DAOed/Search/issues"
+            class="foot-item"
+          >
+            Issues
+          </a>
+          <a
             href="https://about.daoed.com/contact"
             class="foot-item"
           >

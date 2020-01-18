@@ -17,10 +17,12 @@
           >
             <moon-icon
               v-if="theme === 'light'"
+              class="icon-class"
               size="1.5x"
             />
             <sun-icon
               v-else
+              class="icon-class"
               size="1.5x"
             />
           </zi-button>
@@ -152,6 +154,10 @@ export default {
   height: 30px;
 }
 .menu-actions {
+  display: flex;
+  align-items: center;
+}
+.icon-class {
   display: flex;
   align-items: center;
 }

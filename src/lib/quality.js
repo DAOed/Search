@@ -1,5 +1,5 @@
 
-import { schema } from "@lib/schema"
+import { schema } from "./schema"
 
 export const build = function (data) {
   data = data.map(schema)

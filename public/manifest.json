@@ -8,17 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/img/icons/favicon-32x32.png",
+      "src": "/img/icons/icon-72x72.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "72x72"
     },
     {
-      "src": "/img/icons/android-chrome-192x192.png",
+      "src": "/img/icons/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/icons/android-chrome-512x512.png",
+      "src": "/img/icons/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

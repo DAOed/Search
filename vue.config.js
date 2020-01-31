@@ -49,7 +49,7 @@ module.exports = {
     }
   },
   pwa: {
-    name: 'Daoed',
+    name: 'Daoed Search',
     /*
     themeColor: '#',
     msTileColor: '#',

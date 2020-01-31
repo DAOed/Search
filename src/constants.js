@@ -3,9 +3,6 @@ export const appScopes = ["store_write", "publish_data"]
 
 export const baseBlockstackApi = "https://core.blockstack.org/v1/"
 
-// important !!! to ensure all apps on subdomains can still access the same data from gaia as they get the same app ID
-export const appDomain = window.location.origin.indexOf("http://localhost") === 0 ? window.location.origin : "https://daoed.com"
-
 export const algorithmWeigth = 3
 
 export const socialWeigth = 3

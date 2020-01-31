@@ -69,7 +69,7 @@ export default {
   }),
 
   watch: {
-    value (next) {
+    value () {
     }
   }
 }

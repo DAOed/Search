@@ -1,6 +1,4 @@
 
-import { algorithmWeigth, socialWeigth, constantWeigths } from "@constants"
-
 import { initialsAvatar } from "./helpers"
 
 export const build = (data) => {

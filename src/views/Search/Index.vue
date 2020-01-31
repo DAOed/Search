@@ -79,9 +79,8 @@ import filterSearch from "./Filter"
 import searchInput from "@components/search"
 
 import { mapGetters } from "vuex"
-import { lookupProfile } from "blockstack"
 
-import { getUser, searchAccount, getUserBasic } from "@lib/blockstack"
+import { searchAccount } from "@lib/blockstack"
 
 import { filter, build } from "@lib/quality"
 

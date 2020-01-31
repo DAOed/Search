@@ -65,9 +65,9 @@ export default {
     ])
   },
   methods: {
-    getCell (cell, row, event) {
+    getCell () {
     },
-    getRow (row, event) {
+    getRow () {
     },
     search (query) {
       if (query) this.$router.push("/search?q=" + query)

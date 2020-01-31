@@ -49,7 +49,6 @@ module.exports = {
     }
   },
   pwa: {
-    name: 'Daoed Search',
     /*
     themeColor: '#',
     msTileColor: '#',

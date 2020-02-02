@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="dual-grid">
-      <div class="dual-grid-one">
+      <div class="dual-grid-two">
         <div class="search-input-area">
           <div>
             <search-input
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="dual-grid-two" />
+      <div class="dual-grid-one" />
     </div>
     <Modal
       :request-id="requestID"

@@ -7,6 +7,7 @@ import ZeitUI from "@zeit-ui/vue"
 import vStyler from "vstyler"
 import VueApexCharts from "vue-apexcharts"
 import VueTimeago from "vue-timeago"
+import "spa-generic-css"
 
 import "@zeit-ui/vue/dist/zeit-ui.css" // require style
 import "@styles/index.css"

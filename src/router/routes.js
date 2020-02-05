@@ -154,5 +154,9 @@ export default [
         }
       ]
     }
+  },
+  {
+    path: "*",
+    redirect: "/"
   }
 ]
